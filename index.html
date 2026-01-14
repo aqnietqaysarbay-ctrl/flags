@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: hsl(207, 26%, 17%);
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 0;
+        box-sizing: border-box;
+        padding: 0;
+      }
+      .head {
+        background-color: hsl(209, 23%, 22%);
+        display: flex;
+        gap: 970px;
+        padding: 10px 20px 10px 20px;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+      .minicontainer {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px 100px 10px 100px;
+      }
+      .menu {
+        display: flex;
+        flex-direction: row;
+        gap: 750px;
+        width: 1250px;
+      }
+      .card {
+        background-color: hsl(209, 23%, 22%);
+        width: 250px;
+        overflow: hidden;
+        border-radius: 5px;
+      }
+      #card::placeholder {
+        color: rgba(255, 255, 255, 0.745);
+      }
+      .textofcard {
+        padding: 20px;
+        line-height: 9px;
+        font-size: 14px;
+      }
+      span {
+        opacity: 0.7;
+      }
+      .BIG1 {
+        width: 1250px;
+        display: flex;
+        gap: 83px;
+      }
+      .BIG2 {
+        width: 1250px;
+        display: flex;
+        gap: 83px;
+      }
+      .BIGGER {
+        width: 1250px;
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+      }
+      .card img {
+        width: 250px;
+        height: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="head">
+        <p style="padding-left: 80px"><b>Where in the world!</b></p>
+        <p style="display: flex; align-items: center; font-size: 12px">
+          <img
+            width="30px"
+            src="Screenshot 2026-01-13 at 20.59.13.png"
+            alt=""
+          />Dark: Mode
+        </p>
+      </div>
+      <div class="minicontainer">
+        <div class="menu">
+          <fieldset
+            style="
+              width: 450px;
+              border: none;
+              background-color: hsl(209, 23%, 22%);
+              display: flex;
+              align-items: center;
+              border-radius: 5px;
+            "
+          >
+            <img
+              style="width: 35px; height: 35px"
+              src="Screenshot 2026-01-13 at 20.07.46.png"
+              alt=""
+            />
+            <input
+              style="
+                font-size: 14px;
+                border: none;
+                background-color: hsl(209, 23%, 22%);
+                color: rgba(255, 255, 255, 0.755);
+              "
+              type="text"
+              id="card"
+              placeholder="Search for a counrty..."
+            />
+          </fieldset>
+          <select
+            style="
+              background-color: hsl(209, 23%, 22%);
+              border: none;
+              color: rgba(255, 255, 255, 0.755);
+            "
+            id="region-filter"
+          >
+            <option value="">Filter by Region</option>
+            <option value="">America</option>
+            <option value="">Africa</option>
+            <option value="">Asia</option>
+            <option value="">Europe</option>
+          </select>
+        </div>
+        <div class="BIGGER">
+          <div class="BIG1">
+            <div class="cards">
+              <div class="card">
+                <img
+                  style="object-fit: cover; width: 100%; height: 100%"
+                  src="Screenshot 2026-01-13 at 21.11.52.png"
+                  alt=""
+                />
+                <div class="textofcard">
+                  <p><b>Germany</b></p>
+                  <br />
+                  <p style="font-size: 13px">
+                    Population: <span>81.770.900</span>
+                  </p>
+                  <p style="font-size: 13px">Region: <span>Europe</span></p>
+                  <p style="font-size: 13px">Capital:<span> Berlin</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="cards">
+              <div class="card">
+                <img
+                  style="object-fit: cover; width: 100%; height: 100%"
+                  src="Screenshot 2026-01-13 at 21.12.16.png"
+                  alt=""
+                />
+                <div class="textofcard">
+                  <p><b>United States of America</b></p>
+                  <br />
+                  <p style="font-size: 13px">
+                    Population: <span>323,947.000</span>
+                  </p>
+                  <p style="font-size: 13px">Region: <span>Americas</span></p>
+                  <p style="font-size: 13px">
+                    Capital:<span>Washington, D.C.</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cards">
+              <div class="card">
+                <img
+                  style="object-fit: cover; width: 100%; height: 100%"
+                  src="Screenshot 2026-01-13 at 21.12.35.png"
+                  alt=""
+                />
+                <div class="textofcard">
+                  <p><b>United States of America</b></p>
+                  <br />
+                  <p style="font-size: 13px">
+                    Population: <span>323,947.000</span>
+                  </p>
+                  <p style="font-size: 13px">Region: <span>Americas</span></p>
+                  <p style="font-size: 13px">
+                    Capital:<span>Washington, D.C.</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cards">
+              <div class="card">
+                <img
+                  style="object-fit: cover; width: 100%; height: 100%"
+                  src="Screenshot 2026-01-13 at 21.12.52.png"
+                  alt=""
+                />
+                <div class="textofcard">
+                  <p><b>Iceland</b></p>
+                  <br />
+                  <p style="font-size: 13px">
+                    Population: <span>81.770.900</span>
+                  </p>
+                  <p style="font-size: 13px">Region: <span>Europe</span></p>
+                  <p style="font-size: 13px">Capital:<span> Berlin</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="BIG2">
+            <div class="cards">
+              <div class="card">
+                <img
+                  style="object-fit: cover; width: 100%; height: 100%"
+                  src="Screenshot 2026-01-13 at 21.12.43.png"
+                  alt=""
+                />
+                <div class="textofcard">
+                  <p><b>Afghanistan</b></p>
+                  <br />
+                  <p style="font-size: 13px">
+                    Population: <span>81.770.900</span>
+                  </p>
+                  <p style="font-size: 13px">Region: <span>Europe</span></p>
+                  <p style="font-size: 13px">Capital:<span> Berlin</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="cards">
+              <div class="card">
+                <img
+                  style="object-fit: cover; width: 100%; height: 100%"
+                  src="Screenshot 2026-01-13 at 21.13.02.png"
+                  alt=""
+                />
+                <div class="textofcard">
+                  <p><b>Aland Islands</b></p>
+                  <br />
+                  <p style="font-size: 13px">
+                    Population: <span>81.770.900</span>
+                  </p>
+                  <p style="font-size: 13px">Region: <span>Europe</span></p>
+                  <p style="font-size: 13px">Capital:<span> Berlin</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="cards">
+              <div class="card">
+                <img
+                  style="object-fit: cover; width: 100%; height: 100%"
+                  src="Screenshot 2026-01-13 at 21.13.20.png"
+                  alt=""
+                />
+                <div class="textofcard">
+                  <p><b>Albania</b></p>
+                  <br />
+                  <p style="font-size: 13px">
+                    Population: <span>81.770.900</span>
+                  </p>
+                  <p style="font-size: 13px">Region: <span>Europe</span></p>
+                  <p style="font-size: 13px">Capital:<span> Berlin</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="cards">
+              <div class="card">
+                <img
+                  style="object-fit: cover; width: 100%; height: 100%"
+                  src="Screenshot 2026-01-13 at 21.13.29.png"
+                  alt=""
+                />
+                <div class="textofcard">
+                  <p><b>Algeria</b></p>
+                  <br />
+                  <p style="font-size: 13px">
+                    Population: <span>81.770.900</span>
+                  </p>
+                  <p style="font-size: 13px">Region: <span>Europe</span></p>
+                  <p style="font-size: 13px">Capital:<span> Berlin</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
